@@ -1,0 +1,17 @@
+{
+    "name": "drupal/phok_blog",
+    "description": "Multi-user blog for the PHOK Platform",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Curtis Blumer",
+            "email": "curtis.blumer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "drupal/core": "^8.2",
+      "drupal/better_formats": "*"
+    }
+}
