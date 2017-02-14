@@ -1,0 +1,11 @@
+name: "PHOK Core: Content tags"
+description: |
+  Gives contributors a way to assign keywords (or "tags") to their content. This
+  helps visitors find similar content and provides metadata to search engines
+  and social media sites.
+type: module
+core: 8.x
+package: PHOK Core
+dependencies:
+  - drupal:node
+  - drupal:taxonomy

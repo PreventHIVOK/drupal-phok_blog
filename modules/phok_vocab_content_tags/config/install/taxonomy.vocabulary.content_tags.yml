@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Content tags
+vid: content_tags
+description: '@TODO'
+hierarchy: 0
+weight: 0

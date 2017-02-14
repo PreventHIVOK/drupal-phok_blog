@@ -1,0 +1,11 @@
+name: Multi-user Blog for PHOK Platform
+description: "Enables multi-user blogs."
+type: module
+core: 8.x
+package: PHOK Platform
+dependencies:
+  - drupal:node
+  - drupal:views
+  - drupal:taxonomy
+  - drupal:comment
+  - drupal:menu_ui

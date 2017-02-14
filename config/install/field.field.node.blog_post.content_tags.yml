@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.content_tags
+    - node.type.blog_post
+    - taxonomy.vocabulary.content_tags
+  module:
+    - phok_vocab_content_tags
+  enforced:
+    module:
+      - phok_blog
+id: node.blog_post.content_tags
+field_name: content_tags
+entity_type: node
+bundle: blog_post
+label: 'Content tags'
+description: 'Aids visitors in finding information on specific topics.<br>\r\n<small>Enter up to 10 tags, separated by a comma (\",\").</small>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      content_tags: content_tags
+    sort:
+      field: _none
+    auto_create: true
+field_type: entity_reference

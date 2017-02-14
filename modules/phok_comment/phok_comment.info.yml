@@ -1,0 +1,8 @@
+name: "PHOK Core: Comment"
+description: |
+  Allows authorized visitors and users to comment on and discuss the content on your site.
+type: module
+core: 8.x
+package: PHOK Core
+dependencies:
+  - drupal:comment

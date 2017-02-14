@@ -1,0 +1,10 @@
+name: "PHOK Core: Content category"
+description: |
+  Allows you to organize content hierarcically. This is useful in creating
+  different distribution channels for content targeted to different audiences.
+type: module
+core: 8.x
+package: PHOK Core
+dependencies:
+  - drupal:node
+  - drupal:taxonomy

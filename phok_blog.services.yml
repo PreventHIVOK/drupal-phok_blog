@@ -1,0 +1,6 @@
+services:
+  phok_blog.lister:
+    class: Drupal\phok_blog\BlogLister
+    arguments: ['@current_user', '@config.factory']
+    tags:
+      - { name: phok_blog_lister }
